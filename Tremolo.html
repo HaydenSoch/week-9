@@ -29,8 +29,8 @@ osc1Gain.connect(ctx.destination);
 mod = new OscillatorNode(ctx);
 modfreq = new OscillatorNode(ctx);
 
-mod.frequency.value = 48; // what happens if you push this above 20Hz?
-modfreq.frequency.value = 0.5
+mod.frequency.value = 6; // what happens if you push this above 20Hz?
+modfreq.frequency.value = .8
 const modfreqGain = new GainNode(ctx);
 modfreqGain.gain.value = 64
 
